@@ -1,0 +1,66 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/include",
+                "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/src",
+                "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/lib/ros_lib",
+                "/home/geo/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/lib/Robot5",
+                "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/lib/Sabertooth/src",
+                "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/.pio/libdeps/megaatmega2560/Encoder",
+                "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/.pio/libdeps/megaatmega2560/Encoder/utility",
+                "/home/geo/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/geo/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/geo/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/geo/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/geo/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/geo/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/include",
+                    "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/src",
+                    "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/lib/ros_lib",
+                    "/home/geo/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/lib/Robot5",
+                    "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/lib/Sabertooth/src",
+                    "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/.pio/libdeps/megaatmega2560/Encoder",
+                    "/home/geo/bones/catkin_ws/src/arduino_jetson/bones_motion/.pio/libdeps/megaatmega2560/Encoder/utility",
+                    "/home/geo/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/geo/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/geo/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/geo/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/geo/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/geo/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/geo/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
